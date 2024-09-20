@@ -45,16 +45,25 @@
       <!-- Các mục khác -->
       <li><a href="index.php?act=nvct" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Nhân viên công tác</a></li>
 
-      <li><a href="index.php?act=hopdong" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Hợp đồng</a></li>
+      <li class="menu-item group relative">
+        <a href="index.php?act=hopdong" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Hợp đồng</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_hopdong" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm hợp đồng</a></li>
+        </ul>
+      </li>
 
-      <li><a href="index.php?act=hdnv" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Hợp đồng nhân viên</a></li>
+      <li class="menu-item group relative">
+        <a href="index.php?act=hdnv" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Hợp đồng nhân viên</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_hdnv" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm Hợp đồng nhân viên</a></li>
+        </ul>
+      </li>
 
       <li><a href="index.php?act=quyentruycap" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Quyền truy cập</a></li>
 
       <li class="menu-item group relative">
         <a href="index.php?act=chucvu" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Chức vụ</a>
         <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
-          <li><a href="index.php?act=chucvu" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Danh sách chức vụ</a></li>
           <li><a href="index.php?act=add_chucvu" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm chức vụ</a></li>
         </ul>
       </li>
@@ -62,18 +71,28 @@
       <li class="menu-item group relative">
         <a href="index.php?act=chucnang" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Chức năng</a>
         <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
-          <li><a href="index.php?act=chucnang" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Danh sách chức năng</a></li>
+         
           <li><a href="index.php?act=add_chucnang" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm chức năng</a></li>
         </ul>
       </li>
 
       <li><a href="index.php?act=bcnv" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Bằng cấp nhân viên</a></li>
 
-      <li><a href="index.php?act=cnganh" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Chuyên ngành</a></li>
+      <li class="menu-item group relative">
+        <a href="index.php?act=cnganh" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Chuyên ngành</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_cnganh" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm Chuyên ngành</a></li>
+        </ul>
+      </li>
 
       <li><a href="index.php?act=nvkt" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Nhân viên khen thưởng</a></li>
 
-      <li><a href="index.php?act=ktkl" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Khen thưởng - Kỉ luật</a></li>
+      <li class="menu-item group relative">
+        <a href="index.php?act=ktkl" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Khen thưởng - Kỷ luật</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_ktkl" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm khen thưởng - kỷ luật</a></li>
+        </ul>
+      </li>
 
       <li><a href="index.php?act=change" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Thay đổi</a></li>
 
