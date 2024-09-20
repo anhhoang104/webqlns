@@ -34,27 +34,27 @@
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Ngày kí hợp đồng</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền ngày kí hợp đồng" required>
+                                        <input type="text"  class="form-control" placeholder="Điền ngày kí hợp đồng" required>
                                     </div>
                                 </div>
                                 
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Ngày kết thúc hợp đồng</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền ngày kết thúc hợp đồng" required>
+                                        <input type="text"  class="form-control" placeholder="Điền ngày kết thúc hợp đồng" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Tình trạng hợp đồng hợp đồng</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền tình trạng hợp đồng" required>
+                                        <input type="text"  class="form-control" placeholder="Điền tình trạng hợp đồng" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Ghi chú</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền ghi chú" required>
+                                        <input type="text"  class="form-control" placeholder="Điền ghi chú" required>
                                     </div>
                                 </div>
 

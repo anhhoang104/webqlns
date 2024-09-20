@@ -32,12 +32,12 @@
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Tên chức năng</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền tên chức năng" required>
+                                        <input type="text"  class="form-control" placeholder="Điền tên chức năng" required>
                                     </div>
                                 </div>
 
                                 <div class="wrap-btn">
-                                    <input type="submit" name="btn_add" class="btn btn-lg btn-block btn-outline-success" id="ts-success" value="Submit">
+                                    <input type="submit"  class="btn btn-lg btn-block btn-outline-success" id="ts-success" value="Submit">
 
                                 </div>
                         </form>

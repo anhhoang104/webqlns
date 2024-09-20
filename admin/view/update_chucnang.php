@@ -32,7 +32,7 @@
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Tên chức năng </label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền tên chức năng" required>
+                                        <input type="text"  class="form-control" placeholder="Điền tên chức năng" required>
                                     </div>
                                 </div>
 

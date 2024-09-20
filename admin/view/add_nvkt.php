@@ -39,13 +39,13 @@
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Ngày khen thưởng - kỷ luật</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền ngày khen thưởng kỉ luật" required>
+                                        <input type="text"  class="form-control" placeholder="Điền ngày khen thưởng kỉ luật" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Ghi chú</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="" required>
+                                        <input type="text"  class="form-control" placeholder="" required>
                                     </div>
                                 </div>
 

@@ -32,13 +32,13 @@
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">Tên phòng ban</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền tên phòng ban" required>
+                                        <input type="text" class="form-control" placeholder="Điền tên phòng ban" required>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="email1" class="col-sm-3 text-right control-label col-form-label">SDT phòng ban</label>
                                     <div class="col-sm-9">
-                                        <input type="text" name="name_cate" class="form-control" placeholder="Điền số phòng ban" required>
+                                        <input type="text" class="form-control" placeholder="Điền số phòng ban" required>
                                     </div>
                                 </div>
 

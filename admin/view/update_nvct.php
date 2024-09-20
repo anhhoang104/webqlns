@@ -30,13 +30,13 @@
                                 <div class="form-group row">
                                     <label for="tennvien" class="col-sm-3 text-right control-label col-form-label">Tên công ty</label>
                                     <div class="col-sm-9">
-                                       <input type="text" name="name_pro" class="form-control" placeholder="Tên công ty">
+                                       <input type="text"  class="form-control" placeholder="Tên công ty">
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="nct" class="col-sm-3 text-right control-label col-form-label">Ngày bắt đầu công tác</label>
                                     <div class="col-sm-9">
-                                       <input type="text" name="nct" class="form-control" placeholder="Ngày bắt đầu công tác">
+                                       <input type="text"  class="form-control" placeholder="Ngày bắt đầu công tác">
                                         
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                                 <div class="form-group row">
                                     <label for="nct" class="col-sm-3 text-right control-label col-form-label">Ngày kết thúc công tác</label>
                                     <div class="col-sm-9">
-                                       <input type="text" name="nct" class="form-control" placeholder="Ngày kết thúc công tác">
+                                       <input type="text" class="form-control" placeholder="Ngày kết thúc công tác">
                                         
                                     </div>
                                 </div>

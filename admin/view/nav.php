@@ -82,7 +82,12 @@
         </ul>
       </li>
 
-      <li><a href="index.php?act=bcnv" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Bằng cấp nhân viên</a></li>
+      <li class="menu-item group relative">
+        <a href="index.php?act=bcnv" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Bằng cấp nhân viên</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_bcnv" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm bằng cấp nhân viên</a></li>
+        </ul>
+      </li>
 
       <li class="menu-item group relative">
         <a href="index.php?act=cnganh" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Chuyên ngành</a>
