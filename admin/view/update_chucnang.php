@@ -18,7 +18,7 @@
             <div class="">
                 <div class="">
                     <div class="card">
-                        <form class="form-horizontal" action="index.php?act=update_category" method="post" enctype="multipart/form-data">
+                        <form class="form-horizontal" action="index.php?act=update_chucnang" method="post" enctype="multipart/form-data">
                             <div class="card-body">
                                 <h4 class="card-title">Sửa chức năng</h4>
 

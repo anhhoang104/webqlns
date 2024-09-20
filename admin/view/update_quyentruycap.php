@@ -23,7 +23,7 @@
             <div class="">
                 <div class="">
                     <div class="card">
-                        <form class="form-horizontal" action="index.php?act=update_user" method="post" enctype="multipart/form-data">
+                        <form class="form-horizontal" action="index.php?act=update_quyentruycap" method="post" enctype="multipart/form-data">
                             <?php if (is_array($user))
                                 extract($user);
                             ?>

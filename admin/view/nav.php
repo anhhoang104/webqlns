@@ -43,7 +43,13 @@
       </li>
 
       <!-- Các mục khác -->
-      <li><a href="index.php?act=nvct" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Nhân viên công tác</a></li>
+      
+      <li class="menu-item group relative">
+        <a href="index.php?act=nvct" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">nhân viên công tác</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_nvct" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm nhân viên công tác</a></li>
+        </ul>
+      </li>
 
       <li class="menu-item group relative">
         <a href="index.php?act=hopdong" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Hợp đồng</a>
@@ -85,7 +91,13 @@
         </ul>
       </li>
 
-      <li><a href="index.php?act=nvkt" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300">Nhân viên khen thưởng</a></li>
+      
+      <li class="menu-item group relative">
+        <a href="index.php?act=nvkt" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Nhân viên khen thưởng</a>
+        <ul class="dropdown hidden group-hover:block bg-gray-800 rounded shadow-lg py-2 space-y-2 pl-4">
+          <li><a href="index.php?act=add_nvkt" class="dropdown-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Thêm nhân viên khen thưởng</a></li>
+        </ul>
+      </li>
 
       <li class="menu-item group relative">
         <a href="index.php?act=ktkl" class="menu-link block px-4 py-2 text-neutral-50 hover:bg-teal-300	">Khen thưởng - Kỷ luật</a>

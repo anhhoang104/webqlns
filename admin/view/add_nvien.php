@@ -18,7 +18,7 @@
             <div class="">
                 <div class="">
                     <div class="card">
-                        <form class="form-horizontal" action="index.php?act=add_product" method="post" enctype="multipart/form-data">
+                        <form class="form-horizontal" action="index.php?act=add_nvien" method="post" enctype="multipart/form-data">
                             <div class="card-body">
                                 <h4 class="card-title">Thêm nhân viên</h4>
                                 <div class="form-group row">

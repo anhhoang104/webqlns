@@ -187,10 +187,38 @@ if (isset($_GET['act'])) {
         case "bcnv":
         include "view/bcnv.php";
         break;
+
+        case "add_bcnv":
+        include "view/add_bcnv.php";
+        break;
+
+        case "edit_bcnv":
+        break;
+
+        case "delete_bcnv":
+        break;
+
+        case "update_bcnv":
+        include "view/update_bcnv.php";
+        break;
         
         //NHÂN VIÊN KHEN THƯỞNG 
         case "nvkt":
         include "view/nvkt.php";
+        break;
+
+        case "add_nvkt":
+        include "view/add_nvkt.php";
+        break;
+    
+        case "edit_nvkt":
+        break;
+    
+        case "delete_nvkt":
+        break;
+    
+        case "update_nvkt":
+        include "view/update_nvkt.php";
         break;
 
        

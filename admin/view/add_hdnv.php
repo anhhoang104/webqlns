@@ -18,7 +18,7 @@
             <div class="">
                 <div class="">
                     <div class="card">
-                        <form class="form-horizontal" action="./index.php?act=add_category" method="post" enctype="multipart/form-data">
+                        <form class="form-horizontal" action="./index.php?act=add_hdnv" method="post" enctype="multipart/form-data">
                             <div class="card-body">
                                 <h4 class="card-title">Thêm hợp đồng nhân viên</h4>
 
