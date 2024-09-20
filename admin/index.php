@@ -12,6 +12,7 @@ if (isset($_GET['act'])) {
         include "view/dashboard.php";
         break;
 
+        // NHÂN VIÊN
         case "list_nvien":
         include "view/list_nvien.php";
         break;
@@ -28,7 +29,7 @@ if (isset($_GET['act'])) {
         include "view/update_nvien.php";
         break;
 
-
+        // PHÒNG BAN
         case "ds_phongban":
         include "view/ds_phongban.php";
         break;
@@ -47,6 +48,8 @@ if (isset($_GET['act'])) {
         include "view/update_phongban.php";
         break;
         
+
+        // QUYỀN TRUY CẬP
         case 'quyentruycap':
         include "view/quyentruycap.php";
         break;
@@ -60,42 +63,74 @@ if (isset($_GET['act'])) {
         case "delete_quyentruycap":
         break;
         
+        // NHÂN VIÊN CÔNG TÁC
         case "nvct":
         include "view/nvct.php";
         break;
        
+        // CHUYÊN NGÀNH
         case "cnganh":
         include "view/cnganh.php";
         break;
-
+        
+        //HỢP ĐỒNG
         case "hopdong":
         include "view/hopdong.php";
         break;
         
+        //HỢP ĐỒNG NHÂN VIÊN
         case "hdnv":
         include "view/hdnv.php";
         break;
 
+        //CHỨC VỤ
         case "chucvu":
         include "view/chucvu.php";
         break;
+
+        case "add_chucvu":
+        include "view/add_chucvu.php";
+        break;
+
+        case "update_chucvu":
+        include "view/update_chucvu.php";
+        break;
+
+        case "edit_chucvu":
+        break;
     
+        //CHỨC NĂNG
         case "chucnang":
         include "view/chucnang.php";
         break;
-            
+
+        case "add_chucnang":
+        include "view/add_chucnang.php";
+        break;
+        
+        case "edit_chucnang":
+        break;
+
+        case "update_chucnang":
+        include "view/update_chucnang.php";
+        break;
+        
+        //BẰNG CẤP NHÂN VIÊN
         case "bcnv":
         include "view/bcnv.php";
         break;
         
+        //NHÂN VIÊN KHEN THƯỞNG 
         case "nvkt":
         include "view/nvkt.php";
         break;
     
+        //KHEN THƯỞNG KỶ LUẬT
         case "ktkl":
         include "view/ktkl.php";
         break;
-            
+        
+        //THAY ĐỔI
         case "change":
         include "view/change.php";
         break;
